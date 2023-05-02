@@ -43,7 +43,7 @@ body {
 
 #landing {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     background-image: url("Resources/Images/landing.png");
@@ -55,11 +55,10 @@ body {
 #cartaz {
     font-weight: bold;
     font-size: 60px;
-    position: absolute;
     padding: 20px 0px 20px 0px;
     width: 70%;
     height: auto;
-    top: 50%;
+    margin-top: 55vh;
     text-align: center;
 
 }
