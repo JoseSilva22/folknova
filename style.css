@@ -66,23 +66,15 @@ body {
 }
 
 .artistX {
-    width: 49.8%;
+    width: 49.5%;
     margin: 0;
 }
 
 
-#contactos {
-    padding-bottom: 50%;
-    position: relative;
-
-}
-
 #contactos iframe {
-    height: 100%;
+
     width: 100%;
-    left: 0;
-    //top: 0;
-    position: absolute;
+
 }
 
 .logos {
