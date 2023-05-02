@@ -1,13 +1,21 @@
 @font-face {
-    font-family: 'MyWebFont';
-    src:  url("Resources/Fonts/GillSans.ttc") format('truetype'),
-    url('Resources/Fonts/GillSans.ttc') format('truetype');
+    font-family: "Gill";
+    src: url("Resources/Fonts/GillSans-UltraBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gill";
+    src: url("Resources/Fonts/GillSans.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     padding: 0;
     margin: 0;
-    font-family: MyWebFont;
+    font-family: "Gill";
     background-color: #fff2e6;
 }
 
@@ -22,7 +30,7 @@ body {
 
 #menu h3 {
     padding: 0px 20px;
-    font-weight: bolder;
+    font-weight: bold;
     height: 100%;
 }
 
@@ -45,7 +53,7 @@ body {
 }
 
 #cartaz {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 60px;
     position: absolute;
     padding: 20px 0px 20px 0px;
