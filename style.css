@@ -1,13 +1,7 @@
-@font-face{
-    font-family: "mainFont";
-    src: url('Resources/Fonts/GillSans.ttc') format('truetype');
-
-}
-
 body {
     padding: 0;
     margin: 0;
-    font-family: "mainFont";
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
     background-color: #fff2e6;
 }
 
@@ -22,7 +16,7 @@ body {
 
 #menu h3 {
     padding: 0px 20px;
-    font-weight: 900;
+    font-weight: bolder;
     height: 100%;
 }
 
@@ -45,7 +39,7 @@ body {
 }
 
 #cartaz {
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 60px;
     position: absolute;
     padding: 20px 0px 20px 0px;
@@ -61,7 +55,8 @@ body {
 }
 
 #artists, #contactos {
-    width: 100vw;
+    margin-left: 10vW;
+    width: 80vw;
 }
 
 .titulo {
@@ -71,7 +66,7 @@ body {
 }
 
 .artistX {
-    width: 33%;
+    width: 49.8%;
     margin: 0;
 }
 
@@ -84,14 +79,14 @@ body {
 
 #contactos iframe {
     height: 100%;
-    width: 70%;
+    width: 100%;
     left: 0;
-    top: 0;
+    //top: 0;
     position: absolute;
 }
 
 .logos {
-    //background-color: #ff5033;
+/ / background-color: #ff5033;
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
