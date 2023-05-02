@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Gill Sans";
+    background-color: #fff2e6;
+}
+
+#menu {
+    background-color: #ff5033;
+    z-index: 999;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#menu h3 {
+    padding: 0px 20px;
+    font-weight: 900;
+    height: 100%;
+}
+
+#menu h3:hover {
+    padding: 0px 20px;
+    font-weight: 900;
+    color: ghostwhite;
+    cursor: pointer;
+}
+
+#landing {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("Resources/images/landing.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cartaz {
+    font-weight: 900;
+    font-size: 60px;
+    position: absolute;
+    padding: 20px 0px 20px 0px;
+    width: 70%;
+    height: auto;
+    top: 50%;
+    text-align: center;
+
+}
+
+#cartaz p span {
+    white-space: nowrap;
+}
+
+#artists, #contactos {
+    width: 100vw;
+}
+
+.titulo {
+    color: #ff5033;
+    text-align: center;
+    font-size: 60px;
+}
+
+.artistX {
+    width: 33%;
+    margin: 0;
+}
+
+
+#contactos {
+    padding-bottom: 50%;
+    position: relative;
+
+}
+
+#contactos iframe {
+    height: 100%;
+    width: 70%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.logos {
+    //background-color: #ff5033;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    bottom: 0px;
+    width: 100vw;
+}
+
+.logos img {
+    width: 70px;
+    padding: 0px 10px 0px 10px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
