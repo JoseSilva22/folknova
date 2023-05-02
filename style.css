@@ -1,7 +1,13 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url("Resources/Fonts/GillSans.ttc") format('truetype'),
+    url('Resources/Fonts/GillSans.ttc') format('truetype');
+}
+
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-family: MyWebFont;
     background-color: #fff2e6;
 }
 
