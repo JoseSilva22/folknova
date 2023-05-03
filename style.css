@@ -75,7 +75,7 @@ a{
 
 #landing {
     width: 100vw;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
 }
@@ -88,7 +88,7 @@ a{
 
 #logo{
     margin-top: 100px;
-    width: 35vw;
+    width: 30%;
 
 }
 
@@ -162,10 +162,13 @@ a{
     #logo{
         width: 60vw;
     }
-
-
+    
     #cartaz {
         font-size: 3vh;
+    }
+
+    #menu h3{
+        font-size: 1.5vh;
     }
 }
 
@@ -181,6 +184,10 @@ a{
 
     #cartaz {
         font-size: 3vh;
+    }
+
+    #menu h3{
+        font-size: 1.5vh;
     }
 }
 
