@@ -20,7 +20,7 @@ body {
 }
 
 #menu {
-    background-color: #ff5033;
+    //background-color: #f04f41;
     z-index: 999;
     position: fixed;
     width: 100vw;
@@ -113,17 +113,10 @@ a{
 
 
 .titulo {
-    color: #ff5033;
     text-align: center;
     font-size: 3vh;
     width: 100%;
 }
-
-.artistX {
-    //width: 30%;
-
-}
-
 
 #artists {
     display: flex;
@@ -141,6 +134,7 @@ a{
     float: left;
     flex: 0 0 auto;
     background-color: #fff;
+    outline: #2339e6 5px solid;
 }
 
 

@@ -1,5 +1,17 @@
+let colors = ["#f04f41", "#4444da", "#69c49e"];
+
 document.addEventListener("DOMContentLoaded", function(e) {
-	
+
+
+    let randColor = colors[Math.floor(Math.random() * colors.length)];
+
+    document.getElementById("menu").style.backgroundColor = randColor;
+    let artists = document.querySelectorAll('.titulo');
+
+    artists.forEach(artists => {
+        artists.style.color = randColor;
+    });
+
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
