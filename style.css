@@ -32,7 +32,7 @@ body {
     padding: 0px 20px;
     font-weight: bold;
     height: 100%;
-    font-size: 30px;
+    font-size: 2vh;
 }
 
 #menu h3:hover {
@@ -94,7 +94,7 @@ a{
 
 #cartaz {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 5vh;
     padding: 20px 0px 20px 0px;
     width: 70%;
     height: auto;
