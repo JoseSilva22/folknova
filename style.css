@@ -42,11 +42,17 @@ body {
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 #forms {
     z-index: 999;
     position: fixed;
     width: 100vw;
     height: 100vh;
+    pointer-events: none;
 }
 
 #forms img{
@@ -70,6 +76,12 @@ body {
 #landing {
     width: 100vw;
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#landing-small {
+    width: 100vw;
     display: flex;
     justify-content: center;
 }
@@ -122,6 +134,7 @@ body {
     justify-content: center;
     align-content: stretch;
     padding: 0px 10vw;
+    //padding: 100px 10vw 0px 10vw;
     max-width: 100vw;
 }
 
@@ -171,8 +184,7 @@ body {
 
 }
 
-.logos {
-/ / background-color: #ff5033;
+.logos{
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
@@ -180,7 +192,14 @@ body {
     width: 100vw;
 }
 
-.logos img {
+.media{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}
+
+.logos img, .media img {
     width: 70px;
     padding: 0px 10px 0px 10px;
     aspect-ratio: 3/2;
