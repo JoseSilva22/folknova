@@ -127,21 +127,36 @@ a{
     padding: 0px 10vw;
     //padding: 100px 10vw 0px 10vw;
     max-width: 100vw;
+    gap: 5px;
 }
 
 .artistX {
-    display: block;
-    float: left;
-    flex: 0 0 auto;
+
+    flex: 1 1 auto;
     background-color: #fff;
     outline: #2339e6 5px solid;
+    object-fit: contain;
 }
 
+.red{
+    outline: #f04f41 5px solid;
+    outline-offset: -5px;
+}
+
+.blue{
+    outline: #2339e6 5px solid;
+    outline-offset: -5px;
+}
+
+.green{
+    outline: #69c59f 5px solid;
+    outline-offset: -5px;
+}
 
 @media screen and (min-width: 1200px) {
     .artistX {
-        width: calc(100%/3);
-        height: calc(100%/3);
+        width: calc(99%/3);
+        height: calc(99%/3);
     }
 
 }
@@ -149,8 +164,8 @@ a{
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .artistX {
-        width: calc(100%/2);
-        height: calc(100%/2);
+        width: calc(99%/2);
+        height: calc(99%/2);
     }
     #logo{
         width: 60vw;
@@ -197,9 +212,7 @@ a{
 
 
 #contactos iframe {
-
     width: 100%;
-
 }
 
 .logos{
