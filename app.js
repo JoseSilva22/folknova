@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(e) {
+	
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
     var imgs = document.querySelectorAll('.formX');
 
     imgs.forEach((the_img) => {
-        console.log("oi")
+
         window.addEventListener('load', function () {
             randomOrder(the_img);
         });
