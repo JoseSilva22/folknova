@@ -89,7 +89,6 @@ a{
 #logo{
     margin-top: 100px;
     width: 30%;
-
 }
 
 #cartaz {
@@ -161,8 +160,9 @@ a{
     }
     #logo{
         width: 60vw;
+        margin-top: 50px;
     }
-    
+
     #cartaz {
         font-size: 3vh;
     }
@@ -180,6 +180,7 @@ a{
     }
     #logo{
         width: 60vw;
+        margin-top: 50px;
     }
 
     #cartaz {

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         var vpHeight = window.innerHeight;
 
         // Image Position
-        var xPos = getRandomInt(0, 200 - element.offsetWidth);
+        var xPos = getRandomInt(0, -element.offsetWidth/2);
         var yPos = getRandomInt(0, vpHeight - element.offsetHeight);
         var zIndex = getRandomInt(0, 13);
 
