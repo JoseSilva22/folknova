@@ -7,9 +7,15 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
     document.getElementById("menu").style.backgroundColor = randColor;
     let artists = document.querySelectorAll('.titulo');
+    let bLinks = document.querySelectorAll('.bilheteLink');
 
     artists.forEach(artists => {
         artists.style.color = randColor;
+    });
+
+    bLinks.forEach(bLinks => {
+        bLinks.style.border = "5px solid" +randColor;
+        bLinks.style.backgroundColor = randColor;
     });
 
     function getRandomInt(min, max) {
