@@ -47,7 +47,6 @@ a{
 }
 
 #forms {
-    z-index: 999;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -231,6 +230,9 @@ a{
 
     #forms img {
         width: 15vw;
+    }
+    #bilhetes p {
+        font-size: 2vh;
     }
 }
 
