@@ -134,7 +134,7 @@ a{
 }
 
 .bilheteLink{
-
+	display: none;
     padding: 20px;
     width: 100px;
     border-radius: 50px;
@@ -290,3 +290,10 @@ a{
     mix-blend-mode: multiply;
 }
 
+.info{
+	cursor: pointer;
+}
+
+.info-body{
+	display: none;
+}
