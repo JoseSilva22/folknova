@@ -42,14 +42,12 @@ body {
 }
 
 #menu h1 {
-    padding: 0px 20px;
+    padding: 0px 10px;
     font-weight: bold;
     font-size: 2vh;
 }
 
 #menu h1:hover {
-    padding: 0px 20px;
-    font-weight: 900;
     color: ghostwhite;
     cursor: pointer;
 }
@@ -234,7 +232,7 @@ a {
         font-size: 3vh;
     }
 
-    #menu h3 {
+    #menu h1 {
         font-size: 1.5vh;
         padding: 0px 15px;
     }
@@ -268,7 +266,7 @@ a {
         font-size: 3vh;
     }
 
-    #menu h3 {
+    #menu h1 {
         font-size: 1.5vh;
         padding: 0px 15px;
     }
@@ -318,22 +316,31 @@ a {
     width: 50px;
 }
 
+#logosContainer{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
 .logos {
     display: flex;
     justify-content: center;
-    padding: 20px 0px 20px 0px;
-    bottom: 20px;
+   // padding: 20px 0px 20px 0px;
+    //bottom: 20px;
     width: 100vw;
-    position: absolute;
+    //position: absolute;
 }
 
 .logos2 {
     display: flex;
     justify-content: center;
-    padding: 20px 0px 0px 0px;
-    bottom: 0px;
+    //padding: 20px 0px 20px 0px;
+    //bottom: 0px;
     width: 100vw;
-    position: absolute;
+    //position: absolute;
+}
+.logos2 p{
+    margin: 0;
 }
 
 .media {
