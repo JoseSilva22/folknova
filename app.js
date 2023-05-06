@@ -8,9 +8,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
     document.getElementById("menu").style.backgroundColor = randColor;
     let artists = document.querySelectorAll('.titulo');
     let bLinks = document.querySelectorAll('.bilheteLink');
+    let fases = document.querySelectorAll('.fase');
 
     artists.forEach(artists => {
         artists.style.color = randColor;
+    });
+
+    fases.forEach(fases => {
+        fases.style.color = randColor;
     });
 
     bLinks.forEach(bLinks => {
@@ -68,6 +73,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
 			this.classList.toggle("active");
 			/* Toggle between hiding and showing the active panel */
 			var body = this.nextElementSibling;
+
+
 			if (body.style.display === "block") {
 				body.style.display = "none";
 				if (i<3) bilhetesBotoes[i].style.display = "none";

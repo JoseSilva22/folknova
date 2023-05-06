@@ -18,19 +18,23 @@ body {
     margin: 0;
     font-family: "Gill";
     background-color: #fff2e6;
-    cursor:url("Resources/Logos/salta.png"),auto;
-    cursor:url("Resources/Logos/salta.png")23 13, move;
+    cursor: url("Resources/Logos/salta.png"), auto;
+    cursor: url("Resources/Logos/salta.png") 23 13, move;
 
     overflow-x: hidden;
 }
 
 #menu {
-    //background-color: #f04f41;
+/ / background-color: #f04f41;
     z-index: 999;
     position: fixed;
     width: 100vw;
     display: flex;
     justify-content: center;
+}
+
+#menu img {
+    width: 5vh;
 }
 
 #menu h3 {
@@ -46,7 +50,7 @@ body {
     cursor: pointer;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -58,7 +62,7 @@ a{
     pointer-events: none;
 }
 
-#forms img{
+#forms img {
     width: 10vw;
     position: fixed;
 }
@@ -89,13 +93,13 @@ a{
     justify-content: center;
 }
 
-#logo{
+#logo {
     margin-top: 100px;
     width: 30%;
 }
 
-#vila{
-    width: 80%;
+#vila {
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -119,26 +123,43 @@ a{
     width: 80vw;
 }
 
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.flex-item {
+    width: 50%;
+    text-align: center;
+}
+
+
+.bilheteInfo {
+    display: none;
+}
+
 #bilhetes {
     margin-left: 10vw;
     width: 80vw;
 }
 
-#bilhetes a, #bilhetes p{
+#bilhetes a, #bilhetes p {
     text-align: center;
 }
 
-#bilhetes p{
+#bilhetes p {
     font-size: 3vh;
     padding: 0 10vw;
 }
 
-.bilheteLink{
-	display: none;
+.bilheteLink {
+    display: flex;
     padding: 20px;
     width: 100px;
     border-radius: 50px;
-   // border: 5px #2339e6 solid;
+/ / border: 5 px #2339e6 solid;
     margin: 0 auto;
 }
 
@@ -167,25 +188,25 @@ a{
     object-fit: contain;
 }
 
-.red{
+.red {
     outline: #f04f41 5px solid;
     outline-offset: -5px;
 }
 
-.blue{
+.blue {
     outline: #2339e6 5px solid;
     outline-offset: -5px;
 }
 
-.green{
+.green {
     outline: #69c59f 5px solid;
     outline-offset: -5px;
 }
 
 @media screen and (min-width: 1200px) {
     .artistX {
-        width: calc(99%/3);
-        height: calc(99%/3);
+        width: calc(99% / 3);
+        height: calc(99% / 3);
     }
 
 }
@@ -193,24 +214,38 @@ a{
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .artistX {
-        width: calc(99%/2);
-        height: calc(99%/2);
+        width: calc(99% / 2);
+        height: calc(99% / 2);
     }
-    #logo{
+
+    #logo {
         width: 60vw;
-        margin-top: 50px;
     }
 
     #cartaz {
         font-size: 3vh;
     }
 
-    #menu h3{
+    #menu h3 {
         font-size: 1.5vh;
+        padding: 0px 15px;
+    }
+
+    #menu #tickets {
+        border: black 2px solid;
     }
 
     #forms img {
         width: 15vw;
+    }
+
+    .container {
+        flex-flow: column nowrap;
+    }
+
+    .flex-item {
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
 
@@ -220,27 +255,37 @@ a{
         width: 100%;
         height: 100%;
     }
-    #logo{
+
+    #logo {
         width: 60vw;
-        margin-top: 50px;
     }
 
     #cartaz {
         font-size: 3vh;
     }
 
-    #menu h3{
+    #menu h3 {
         font-size: 1.5vh;
+        padding: 0px 15px;
     }
+
 
     #forms img {
         width: 15vw;
     }
+
     #bilhetes p {
         font-size: 2vh;
     }
-}
 
+    .container {
+        flex-flow: column nowrap;
+    }
+
+    .flex-item {
+        width: 100%;
+    }
+}
 
 
 #contactos iframe {
@@ -248,34 +293,37 @@ a{
     margin: 0 auto;
     width: 80%;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-#mail{
+#mail {
     text-align: center;
     text-decoration: underline;
 
 }
+
 #signature {
     width: 100vw;
     display: flex;
     flex-flow: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
-#signature img{
+#signature img {
     width: 50px;
 }
 
-.logos{
+.logos {
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
-    //bottom: 0px;
+/ / bottom: 0 px;
     width: 100vw;
     position: absolute;
 }
 
-.media{
+.media {
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
@@ -290,10 +338,11 @@ a{
     mix-blend-mode: multiply;
 }
 
-.info{
-	cursor: pointer;
+.info {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-.info-body{
-	display: none;
+.info-body {
+/ / display: none;
 }
