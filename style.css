@@ -12,11 +12,16 @@
     font-style: normal;
 }
 
+
 body {
     padding: 0;
     margin: 0;
     font-family: "Gill";
     background-color: #fff2e6;
+    cursor:url("Resources/Logos/salta.png"),auto;
+    cursor:url("Resources/Logos/salta.png")23 13, move;
+
+    overflow-x: hidden;
 }
 
 #menu {
@@ -242,6 +247,7 @@ a{
     display: block;
     margin: 0 auto;
     width: 80%;
+    margin-bottom: 50px;
 }
 
 #mail{
