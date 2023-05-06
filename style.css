@@ -37,6 +37,10 @@ body {
     width: 5vh;
 }
 
+#menu #tickets {
+    border: black 2px solid;
+}
+
 #menu h1 {
     padding: 0px 20px;
     font-weight: bold;
@@ -233,10 +237,6 @@ a {
     #menu h3 {
         font-size: 1.5vh;
         padding: 0px 15px;
-    }
-
-    #menu #tickets {
-        border: black 2px solid;
     }
 
     #forms img {
