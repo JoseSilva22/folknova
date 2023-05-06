@@ -37,13 +37,13 @@ body {
     width: 5vh;
 }
 
-#menu h3 {
+#menu h1 {
     padding: 0px 20px;
     font-weight: bold;
     font-size: 2vh;
 }
 
-#menu h3:hover {
+#menu h1:hover {
     padding: 0px 20px;
     font-weight: 900;
     color: ghostwhite;
@@ -138,6 +138,10 @@ a {
 
 .bilheteInfo {
     display: none;
+}
+
+.main {
+    display: block;
 }
 
 #bilhetes {
@@ -318,7 +322,16 @@ a {
     display: flex;
     justify-content: center;
     padding: 20px 0px 20px 0px;
-/ / bottom: 0 px;
+    bottom: 20px;
+    width: 100vw;
+    position: absolute;
+}
+
+.logos2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+    bottom: 0px;
     width: 100vw;
     position: absolute;
 }
@@ -331,7 +344,7 @@ a {
 }
 
 .logos img, .media img {
-    width: 70px;
+    width: 50px;
     padding: 0px 10px 0px 10px;
     aspect-ratio: 3/2;
     object-fit: contain;
