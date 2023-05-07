@@ -31,6 +31,7 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #menu img {
@@ -162,7 +163,7 @@ a {
 
 .bilheteLink {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     width: 100px;
     border-radius: 50px;
 / / border: 5 px #2339e6 solid;
@@ -259,6 +260,7 @@ a {
     }
 
     #logo {
+        margin-top: 50px;
         width: 60vw;
     }
 
