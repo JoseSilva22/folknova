@@ -5,23 +5,20 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
     let randColor = colors[Math.floor(Math.random() * colors.length)];
 
-    document.getElementById("menu").style.backgroundColor = randColor;
-    let artists = document.querySelectorAll('.titulo');
-    let bLinks = document.querySelectorAll('.bilheteLink');
-    let fases = document.querySelectorAll('.fase');
+    //document.getElementById("menu").style.backgroundColor = randColor;
+    $("#menu").css("background-color", randColor);
+    $("#coockiePolicy").css("background-color", randColor);
+    $(".titulo").css("color", randColor);
 
-    artists.forEach(artists => {
-        artists.style.color = randColor;
+    $(".bilheteLink").css("border", "5px solid" + randColor);
+    $(".bilheteLink").css("background-color", randColor);
+    $(".fase").css("color", randColor);
+    $(".coockie").css("color", randColor);
+
+    $("#closeCoockie").click(function () {
+        $("#coockiePolicy").remove();
     });
 
-    fases.forEach(fases => {
-        fases.style.color = randColor;
-    });
-
-    bLinks.forEach(bLinks => {
-        bLinks.style.border = "5px solid" + randColor;
-        bLinks.style.backgroundColor = randColor;
-    });
 
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;

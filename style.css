@@ -20,8 +20,35 @@ body {
     background-color: #fff2e6;
     cursor: url("Resources/Logos/salta.png"), auto;
     cursor: url("Resources/Logos/salta.png") 23 13, move;
-
     overflow-x: hidden;
+}
+
+#coockiePolicy{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: fixed;
+    bottom:0px;
+    width: 100vw;
+    height: 50px;
+}
+
+#textCoockie{
+    width: 90%;
+}
+
+#closeCoockie{
+    width: 10%;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#closeCoockie:hover{
+    cursor: pointer;
+}
+
+#coockiePolicy a{
+    text-decoration: underline;
 }
 
 #menu {
@@ -33,6 +60,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 #menu img {
     width: 5vh;
@@ -360,6 +388,9 @@ a {
     mix-blend-mode: multiply;
 }
 
+.coockie{
+    text-align: center;
+}
 .info {
     cursor: pointer;
     text-decoration: underline;
