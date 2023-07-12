@@ -180,11 +180,15 @@ a {
     width: 80vw;
 }
 
-#bilhetes a, #bilhetes p {
+#alojamento {
+    width: 80vw;
+}
+
+#bilhetes a, #bilhetes p, #alojamento p {
     text-align: center;
 }
 
-#bilhetes p {
+#bilhetes p, #alojamento p {
     font-size: 3vh;
     padding: 0 10vw;
 }
