@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
     $(".bilheteLink").css("background-color", randColor);
     $(".fase").css("color", randColor);
     $(".coockie").css("color", randColor);
+    $("#metro").css("color", randColor);
 
     $("#closeCoockie").click(function () {
         $("#coockiePolicy").remove();

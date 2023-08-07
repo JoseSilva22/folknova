@@ -180,17 +180,21 @@ a {
     width: 80vw;
 }
 
-#alojamento {
+#alojamento, #campismo, #chegar {
     width: 80vw;
 }
 
-#bilhetes a, #bilhetes p, #alojamento p {
+#bilhetes a, #bilhetes p, #alojamento p, #campismo p, #chegar p {
     text-align: center;
 }
 
-#bilhetes p, #alojamento p {
+#bilhetes p, #alojamento p, #campismo p, #chegar p {
     font-size: 3vh;
     padding: 0 10vw;
+}
+
+#metro{
+    text-decoration: underline;
 }
 
 .bilheteLink {
