@@ -184,7 +184,7 @@ a {
     width: 80vw;
 }
 
-#bilhetes a, #bilhetes p, #alojamento p, #campismo p, #chegar p {
+#bilhetes a, #bilhetes p, #alojamento p, #campismo p, #chegar p, #chegar h2, #chegar h3 {
     text-align: center;
 }
 
@@ -193,7 +193,7 @@ a {
     padding: 0 10vw;
 }
 
-#metro{
+.transportes{
     text-decoration: underline;
 }
 
