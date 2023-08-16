@@ -212,6 +212,12 @@ a {
     width: 100%;
 }
 
+.alinhamento {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
 #artists {
     display: flex;
     flex-direction: row;
